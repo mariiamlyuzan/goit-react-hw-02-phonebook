@@ -1,0 +1,40 @@
+.label {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.buttonAdd {
+  min-height: 44px;
+  min-width: 112px;
+  border-radius: 5px;
+  border: 1px solid #ff6b08;
+  background-color: transparent;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.buttonAdd:hover {
+  background-color: #ff6b08;
+  border: 0px;
+}
+
+.input {
+  width: 100%;
+  border: 2px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  padding: 13px 20px 13px 42px;
+  outline: none;
+  background-color: transparent;
+}
+
+.input:hover,
+.input:focus {
+  border-color: #ff6b08;
+  cursor: pointer;
+}
