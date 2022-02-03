@@ -9,7 +9,7 @@
   text-align: center;
   text-transform: uppercase;
   cursor: pointer;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 .buttonDelete:hover {
@@ -20,12 +20,12 @@
   margin-right: 20px;
   font-size: 25px;
   padding-top: 15px;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .nameContact {
   margin: 10px;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .listContact {

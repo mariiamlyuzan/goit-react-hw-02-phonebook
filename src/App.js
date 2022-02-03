@@ -29,7 +29,11 @@ class App extends Component {
       id: shortid.generate(),
     };
 
-    if (this.state.contacts.find(contact => contact.name === name)) {
+    if (
+      this.state.contacts.find(
+        contact => contact.name.toLowerCase() === name.toLowerCase(),
+      )
+    ) {
       return Notiflix.Notify.failure(`${name} is already in contacts.`);
     }
     this.setState(({ contacts }) => ({
